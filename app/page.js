@@ -92,7 +92,6 @@ export default function TikTak() {
         transition={{ duration: 0.5 }}
       />
 
-      {/* Overlay content */}
       <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/60 to-transparent p-4">
         <div className="text-sm text-white/80 mb-1">{currentVideo.user}</div>
         <div className="flex items-center gap-3 mb-3">
@@ -119,7 +118,6 @@ export default function TikTak() {
         </div>
       </div>
 
-      {/* Upload Button */}
       <div className="absolute top-4 left-4 flex items-center gap-2">
         <input
           type="file"
@@ -133,7 +131,6 @@ export default function TikTak() {
         </Button>
       </div>
 
-      {/* Volume Icon */}
       <div className="absolute top-4 right-4 bg-black/50 p-2 rounded-full">
         <Volume2 />
       </div>
